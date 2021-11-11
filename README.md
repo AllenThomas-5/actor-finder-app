@@ -5,6 +5,7 @@ This is an App the fetches the list of Actors from the TMDB API based on your in
 The App is built using React-Redux
 
 * **External Libraries Used**
+  * Bootstrap
   * Axios
   * React Router Dom
   * Redux
