@@ -8,8 +8,8 @@ const initialState = {
 
 const reducer = (state = initialState, action) => {
     switch (action.type) {
-        case 'GET_ACTOR_NAME':
-            return {...state, actorName: [action.payload.actorName]}
+        case 'SET_ACTOR_NAME':
+            return {...state, actorName: action.payload.actorName}
         case 'FETCH_ACTORS':
             return {...state, actors: action.payload}
         // if none of the cases match, just return the initial state

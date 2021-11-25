@@ -37,7 +37,7 @@ export const fetchActorDetail = (actorId) => {
 
 
 export const getActorName = (actorName) => ({
-    type: 'GET_ACTOR_NAME',
+    type: 'SET_ACTOR_NAME',
     payload: { actorName }
 })
 

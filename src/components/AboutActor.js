@@ -10,9 +10,8 @@ const AboutActor = () => {
     const dispatch = useDispatch();
 
        // Get the List of Actors
-       const actorDetail = useSelector((state) => state.actorDetail);
-       // Get the Actor Name if it is set
-       const actorName  = useSelector((state) => state.actorName);
+    const actorDetail = useSelector((state) => state.actorDetail);
+ 
    
 
     const imageUrl = actorDetail.profile_path ? `https://image.tmdb.org/t/p/w500/${actorDetail.profile_path}` : "https://via.placeholder.com/500"
